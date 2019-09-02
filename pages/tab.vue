@@ -8,6 +8,18 @@
           :class="{ active: current === index }">
               {{ item }}
           </span>
+
+            <!-- 
+                
+
+                class="{ active: current === index }"> 
+                点击哪个 哪个会加上下面这个类
+                class="active"
+                
+                
+                -->
+             
+
       </div>
 
       <div v-show="current === 0">
